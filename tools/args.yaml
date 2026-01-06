@@ -1,0 +1,31 @@
+lr0: 0.002                    # initial learning rate (SGD=1E-2, Adam=1E-3) default 0.010
+lrf: 0.010                    # final OneCycleLR learning rate (lr0 * lrf)  default 0.010
+momentum: 0.93700000          # SGD momentum/Adam beta1
+weight_decay: 0.0005          # optimizer weight decay 5e-4
+warmup_epochs: 5.000          # warmup epochs                               default 3.000
+warmup_momentum: 0.8          # warmup initial momentum
+warmup_bias_lr: 0.05          # warmup initial bias lr                      default 0.05
+box: 10.0                     # box loss gain                               default 7.5
+cls: 0.2                      # cls loss gain                               default 0.5
+dfl: 2.0                      # cls loss gain                               default 1.5
+hsv_h: 0.000000               # image HSV-Hue augmentation (fraction)       default 0.015000
+hsv_s: 0.000000               # image HSV-Saturation augmentation (fraction)default 0.700000 
+hsv_v: 0.000000               # image HSV-Value augmentation (fraction)     default 0.400000
+degrees: 0.0000               # image rotation (+/- deg)
+translate: 0.005              # image translation (+/- fraction)            defualt 0.10
+scale: 0.100000               # image scale (+/- gain)                      default 0.500000
+shear: 0.000000               # image shear (+/- deg)
+flip_ud: 0.0000               # image flip up-down (probability)            
+flip_lr: 0.5000               # image flip left-right (probability)
+mosaic: 0.00000               # image mosaic (probability)                  default 1.000000
+mix_up: 0.00000               # image mix-up (probability)                  default 0.000000
+# classes
+names:
+  0: small
+
+batch_size: 4
+
+# inference
+# conf_threshold: 0.0001           # default 0.001
+conf_threshold: 0.001           # default 0.001
+iou_threshold: 0.01            # default 0.65
