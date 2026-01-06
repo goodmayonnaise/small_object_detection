@@ -1,4 +1,5 @@
-YOLOv8 re-implementation using PyTorch
+using YOLOv8 only P1, P2 
+small Object Detection inference code 
 
 ### Installation
 
