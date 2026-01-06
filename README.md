@@ -44,6 +44,12 @@ pip install einops
                 ├── defect
                     ├── xx_nnnn_nnnnn.tif
                     ├── xx_nnnn_nnnnn.tif
+    ├── weights
+        ├── p2
+            ├── visualization
+            ├── args.yaml
+            ├── best.pt
+            ├── last.pt
 
 #### Reference
 
