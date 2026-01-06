@@ -47,6 +47,8 @@ pip install einops
     ├── weights
         ├── p2
             ├── visualization
+                ├── result.tif
+                ├── result.mp4
             ├── args.yaml
             ├── best.pt
             ├── last.pt
