@@ -27,22 +27,22 @@ pip install einops
 
 ### Dataset structure
 
-├── data
-    ├── sem
-        ├── images
-            ├── all
-                ├── xx_nnnn_nnnnn.tif
-                ├── xx_nnnn_nnnnn.tif
-            ├── defect
-                ├── xx_nnnn_nnnnn.tif
-                ├── xx_nnnn_nnnnn.tif
-        ├── yolo_annotations
-            ├── all
-                ├── xx_nnnn_nnnnn.tif
-                ├── xx_nnnn_nnnnn.tif
-            ├── defect
-                ├── xx_nnnn_nnnnn.tif
-                ├── xx_nnnn_nnnnn.tif
+    ├── data
+        ├── sem
+            ├── images
+                ├── all
+                    ├── xx_nnnn_nnnnn.tif
+                    ├── xx_nnnn_nnnnn.tif
+                ├── defect
+                    ├── xx_nnnn_nnnnn.tif
+                    ├── xx_nnnn_nnnnn.tif
+            ├── yolo_annotations
+                ├── all
+                    ├── xx_nnnn_nnnnn.tif
+                    ├── xx_nnnn_nnnnn.tif
+                ├── defect
+                    ├── xx_nnnn_nnnnn.tif
+                    ├── xx_nnnn_nnnnn.tif
 
 #### Reference
 
